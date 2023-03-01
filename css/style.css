@@ -1,0 +1,52 @@
+
+]/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Configurações Genéricas */
+
+.leyout-grid{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+
+/* Header */
+header{
+    height: 60px;
+    background-color: #F9003D;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav{
+    
+    width: 600px;
+    border: 3px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 120px; */
+    /* align-items: center; */
+}
+/* Centralizando os elemento junto do nav e separando elas */
+
+header .header-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* Custumizando e configurando o estilos de texto e escrita do site */
