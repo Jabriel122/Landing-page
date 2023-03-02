@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Leonardo";
+    src: url(../assests/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
 
-]/* Reset */
+
+/* Reset */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,7 +18,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* Header */
@@ -28,7 +34,7 @@ header{
 header nav{
     
     width: 600px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 
     display: flex;
     justify-content: space-between;
@@ -40,6 +46,9 @@ header nav{
 header .header-flex{
     display: flex;
     justify-content: flex-end;
+    /* align-items: stretch;
+
+    height: 100%; */
 }
 
 header nav a{
@@ -47,6 +56,98 @@ header nav a{
     color: white;
     text-transform: uppercase;
     font-size: 18px;
+    font-family: "Leonardo";
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 20px black;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+header nav a:hover{ /* A configuração Hover é uma confuguração que anima o lugar quando o mause passa por cima*/
+    text-shadow: 0px 0px 5px rgba(249, 0, 61, 0.3);
+    background-color: white;
+    color: #F9003D;
 }
 
 /* Custumizando e configurando o estilos de texto e escrita do site */
+
+
+
+/* Main */
+
+main{
+    /* background-color: black; */
+    height: 740px;
+}
+
+main .banner{
+    background-image: url(../assests/image/imagem-fundo-banner.png);
+    background-repeat: none;
+    background-size: 100% auto;
+    background-position: con;
+    height: 740px;
+
+}
+    
+main #caixa{
+    padding-top: 240px ;
+    margin-left: 120px;
+    width: 545px;
+    /* border: 2px solid green; */
+
+    
+}
+
+main #divisão{
+    width: 545px;
+    /* background-color: #FFAF00; */
+    border: 1px solid #FFAF00;
+
+}
+
+main article h1{
+    color: white;
+    font-size: 96px;
+    font-family: "Leonardo";
+    flex-direction: column;
+
+}
+
+main article h2{
+    color: #F9003D;
+    font-family: "Courier New";
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-top: 29px;
+}
+
+main #mause{
+    /* border: 2px solid green; */
+    height: 80px;
+    width: 80px;
+
+    background-image: url(../assests/image/mouse.svg);
+    background-repeat: no-repeat;
+    back
+}
+
+
+/* Rodapé */
+
+footer{
+    background-color: #F9003D;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer #copyright p{
+    color: white;
+    font-size: 18;
+    font-family: Open;
+}
