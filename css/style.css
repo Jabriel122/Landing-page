@@ -82,9 +82,9 @@ main{
 
 main .banner{
     background-image: url(../assests/image/imagem-fundo-banner.png);
-    background-repeat: none;
-    background-size: 100% auto;
-    background-position: con;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 740px;
 
 }
@@ -98,7 +98,7 @@ main #caixa{
     
 }
 
-main #divisão{
+main article #divisão{
     width: 545px;
     /* background-color: #FFAF00; */
     border: 1px solid #FFAF00;
@@ -123,22 +123,124 @@ main article h2{
     margin-top: 29px;
 }
 
-main #mause{
+main article #mause{
     /* border: 2px solid green; */
     height: 80px;
     width: 80px;
 
+    margin-top: 29px;
+
     background-image: url(../assests/image/mouse.svg);
     background-repeat: no-repeat;
-    back
+    background-position: center;
+}
+
+/*** Sobre o projeto. ***/
+
+main section {
+    /* border: 2px solid green; */
+    background-color: #080324;
+
+    width: 100%;
+    height: 760px;
+}
+
+main .section-flex{
+    /* border: 3px solid white; */
+    height: 617px;
+    width: 1200px;
+
+    padding-top: 64px;
+}
+
+main section h1{
+    font-family: "Leonardo";
+    font-size: 64px;
+    color: #F9003D;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+} 
+
+main section #imagem-prof{
+    /* border: 2px solid yellow; */
+    height: 476px;
+    width: 491px;
+
+    background-image: url(../assests/image/imagem-seção-sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 64px;
+}
+
+main section #participantes{
+    /* border: 2px solid green; */
+    height: 617px;
+    width: 607px;
+
+    position: relative;
+    top: -610px;
+    right: -600px;
+
+    padding-top: 120px;
+    padding-left: 10;
+}
+
+main section h3{
+    font-family: 'Courier New';
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+main section #participantes h2{
+    font-family: "Leonardo";
+    font-size: 64px;
+    color:#FFAF00;
+    text-transform: uppercase;
+}
+
+main section p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+main #dois{
+height: 223px;
+width: 100%;
+
+background-image: url(../assests/image/imagem-fundo-info.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+padding-top: 35px;
 }
 
 
-/* Rodapé */
+main .info-flex{
+    /* border: 2px solid green; */
 
-footer{
-    background-color: #F9003D;
-    height: 60px;
+    width: 1200px;
+    height: 133px;
+
+}
+
+main .info-flex .local{
+    /* border: 2px solid blue; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .info-flex .local .box{
+    width: 289px;
+    height: 100px;
+
+    border: 2px solid #A259F7;
 
     display: flex;
     align-items: center;
@@ -146,8 +248,47 @@ footer{
 
 }
 
+main .info-flex .local .box h2{
+    color:#A259F7;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+main .info-flex .local h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main #tres{
+    width: 100%;
+    height: 516px;
+
+    background-image: url(../assests/image/imagem-fundo-endereco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 34px;
+}
+/* Rodapé */
+
+
+
+/* footer{
+    background-color: #F9003D;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 footer #copyright p{
     color: white;
     font-size: 18;
     font-family: Open;
-}
+} */
